@@ -1,0 +1,162 @@
+<!--
+ * New Condition Format plug-in
+ * Copyright (c) 2016 Cybozu
+ *
+ * Licensed under the MIT License
+-->
+<div id="cf-plugin">
+    <div class="block cf-plugin-block">
+        <div class="kintoneplugin-label">{{html:terms.cf_multichoice_title}}</div>
+        <div class="kintoneplugin-row">
+            <table class="cf-plugin-multichoice-table kintoneplugin-table">
+                <thead>
+                    <tr>
+                        <th class="kintoneplugin-table-th">
+                            <span class="title">{{html:terms.cf_multichoice_column1}}
+                                <span class="kintoneplugin-require">*</span>
+                            </span>
+                        </th>
+                        <th class="kintoneplugin-table-th">
+                            <span class="title">{{html:terms.cf_multichoice_column2}}
+                                <span class="kintoneplugin-require">*</span>
+                            </span>
+                        </th>
+                        <th class="kintoneplugin-table-th">
+                            <span class="title">{{html:terms.cf_multichoice_column3}}
+                                <span class="kintoneplugin-require">*</span>
+                            </span>
+                        </th>
+                        <th class="kintoneplugin-table-th-blankspace"></th>
+                        <th class="kintoneplugin-table-th-blankspace"></th>
+                    </tr>
+                </thead>
+                <tbody id="cf-plugin-multichoice-tbody">
+                    <tr class="cf-plugin-multichoice-line">
+                        <td>
+                            <div class="kintoneplugin-table-td-control">
+                                <div class="kintoneplugin-table-td-control-value">
+                                    <div class="kintoneplugin-select-outer">
+                                        <div class="kintoneplugin-select cf-field-type">
+                                            <select class="cf-plugin-column1" id="m0">
+                                                <option value="">-----</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="kintoneplugin-table-td-control">
+                                <div class="kintoneplugin-table-td-control-value">
+                                    <div class="kintoneplugin-select-outer">
+                                        <div class="kintoneplugin-select cf-field-type">
+                                            <select class="cf-plugin-column2" id="source-m0">
+                                                <option value="">-----</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="kintoneplugin-table-td-control">
+                                <div class="kintoneplugin-table-td-control-value">
+                                    <div class="kintoneplugin-select-outer">
+                                        <div class="kintoneplugin-select cf-field-type">
+                                            <select class="cf-plugin-column3">
+                                                <option value="">-----</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="kintoneplugin-table-td-operation cf-plugin-column4">
+                            <button type="button" class="kintoneplugin-button-add-row-image addList" title="Add row"></button>
+                            <button type="button" class="kintoneplugin-button-remove-row-image removeList" title="Delete this row"></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="block cf-plugin-block">
+        <div class="kintoneplugin-label">{{html:terms.cf_checkbox_title}}</div>
+        <div class="kintoneplugin-row">
+            <table class="cf-plugin-checkbox-table kintoneplugin-table">
+                <thead>
+                    <tr>
+                        <th class="kintoneplugin-table-th">
+                            <span class="title">{{html:terms.cf_checkbox_column1}}
+                                <span class="kintoneplugin-require">*</span>
+                            </span>
+                        </th>
+                        <th class="kintoneplugin-table-th">
+                            <span class="title">{{html:terms.cf_checkbox_column2}}
+                                <span class="kintoneplugin-require">*</span>
+                            </span>
+                        </th>
+                        <th class="kintoneplugin-table-th">
+                            <span class="title">{{html:terms.cf_checkbox_column3}}
+                                <span class="kintoneplugin-require">*</span>
+                            </span>
+                        </th>
+                        <th class="kintoneplugin-table-th-blankspace"></th>
+                        <th class="kintoneplugin-table-th-blankspace"></th>
+                    </tr>
+                </thead>
+                <tbody id="cf-plugin-checkbox-tbody">
+                    <tr class="cf-plugin-checkbox-line">
+                        <td>
+                            <div class="kintoneplugin-table-td-control">
+                                <div class="kintoneplugin-table-td-control-value">
+                                    <div class="kintoneplugin-select-outer">
+                                        <div class="kintoneplugin-select cf-field-type">
+                                            <select class="cf-plugin-column1" id="c0">
+                                                <option value="">-----</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="kintoneplugin-table-td-control">
+                                <div class="kintoneplugin-table-td-control-value">
+                                    <div class="kintoneplugin-select-outer">
+                                        <div class="kintoneplugin-select cf-field-type">
+                                            <select class="cf-plugin-column2" id="source-c0">
+                                                <option value="">-----</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="kintoneplugin-table-td-control">
+                                <div class="kintoneplugin-table-td-control-value">
+                                    <div class="kintoneplugin-select-outer">
+                                        <div class="kintoneplugin-select cf-field-type">
+                                            <select class="cf-plugin-column3">
+                                                <option value="">-----</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="kintoneplugin-table-td-operation cf-plugin-column4">
+                            <button type="button" class="kintoneplugin-button-add-row-image addList" title="Add row"></button>
+                            <button type="button" class="kintoneplugin-button-remove-row-image removeList" title="Delete this row"></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="block">
+        <button class="kintoneplugin-button-dialog-ok" id="cf-submit" type="button">{{html:terms.cf_plugin_submit}}</button>
+        <button class="kintoneplugin-button-dialog-cancel" id="cf-cancel" type="button">{{html:terms.cf_plugin_cancel}}</button>
+    </div>
+</div>

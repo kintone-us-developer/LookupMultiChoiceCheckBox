@@ -1,0 +1,28 @@
+/*
+ * New Condition Format plug-in
+ * Copyright (c) 2016 Cybozu
+ *
+ * Licensed under the MIT License
+ */
+.cf-plugin-block {
+    margin: 10px 0px 10px 0px;
+    border: solid 1px #eee;
+    padding: 20px;
+}
+
+#cf-plugin-multichoice-tbody tr:first-child,
+#cf-plugin-checkbox-tbody tr:first-child {
+    display: none;
+}
+
+.kintoneplugin-table-th .title {
+    min-width: 40px;
+}
+
+.cf-field-type {
+    width: 220px;
+}
+
+.cf-plugin-column4{
+    min-width: 70px;
+}
